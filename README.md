@@ -44,3 +44,14 @@ Course Outline
   1. CDMA
   1. WiFi -- 802.11 protocols
   
+
+
+IPython Notebooks
+=================
+
+I think iPython Notebooks are amazing.  Especially when you have to do math.
+My intention this semester is to make a series of iPython notebooks that capture
+what I think is really important for you to know.  These will be available on the 
+class [github repository](http://github.com/bnmnetp/CS341) for you to download.
+You can also view them (read only) at any time by going to [the nbviewer](http://nbviewer.ipython.org/github/bnmnetp/CS341/tree/master/)
+
