@@ -1,9 +1,9 @@
 # Site settings
-title: Internet Programming
+title: Computer Networking
 email: bmiller@luther.edu
 description: "Notes and Syllabus for Internet Programming"
-baseurl: "http://bnmnetp.github.io/CS365/"
-url: "http://reputablejournal.com"
+baseurl: "http://bnmnetp.github.io/CS341/"
+url: "http://bnmnetp.github.io"
 twitter_username: bnmnetp
 github_username:  bnmnetp
 
