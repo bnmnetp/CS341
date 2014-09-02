@@ -7,20 +7,21 @@ permalink: /syllabus/
 CS-341 Computer Networking
 ==========================
 
-Instructor
-==========
+Contact
+=======
 
-Brad Miller\
-Olin, 321\
-email: bmiller@luther.edu\
-Skype: bonelake\
-Google+\
-Piazza: https://piazza.com/luther/fall2014/cs341
+Brad Miller  |    
+----- | ----
+Office | Olin, 321
+email | bmiller@luther.edu\
+Skype | bonelake\
+Google+ | millbr02
+Piazza | https://piazza.com/luther/fall2014/cs341
 
 Office Hours
 ============
 
-Monday Wednesday, Friday: 9:30 -- 10:30, 2:00 -- 300\
+Monday Wednesday, Friday: 9:30 -- 10:30, 2:00 -- 3:00 <br>
 Other times by appointment, drop-in, or virtual. Really! I’m here to
 help you, so stop in. Mornings are open and I’m usually around.
 
