@@ -13,8 +13,8 @@ Contact
 Brad Miller  |    
 ----- | ----
 Office | Olin, 321
-email | bmiller@luther.edu\
-Skype | bonelake\
+email | bmiller@luther.edu
+Skype | bonelake
 Google+ | millbr02
 Piazza | https://piazza.com/luther/fall2014/cs341
 
@@ -55,31 +55,26 @@ Course Outline
 
 1.  Computer Networks and the Internet
   1. Packet Switched Networks
-  1. Delay, Loss, and throughput
-  1. Overview of the Network Layers
-
+  3. Delay, Loss, and throughput
+  3. Overview of the Network Layers
 2.  The Application Layer
   1. The Web and HTTP
   1. DNS Overview
   1. Socket Programming
-
 3.  The Transport Layer
   1. Multiplexing and Demultiplexing
   1. Reliable Data Transfer
   1. TCP
   1. Congestion Control
-
 4.  The Network Layer
   1. Forwarding and Routing
   1. the IP protococol
   1. Routing Algorithms
   1. Broadcast and Multicast
-  
 5.  The Link Layer
   1. Error Detection and Correction
   1. Multiple Access Links and Protocols
   1. Ethernet
-
 6.  Wireless and Mobile Networks
   1. CDMA
   1. WiFi -- 802.11 protocols
@@ -118,44 +113,6 @@ Homework
 You will have at least weekly homework assignments, sometimes more
 frequently when they are easier.
 
-Midterm Mashups
-
-The mid-term mashup will be a substantial part of your grade. You will
-need to design and implement a mashup, then you’ll present a demo of it
-to the class when it is all done. Many of today’s successful web
-businesses started out as simple mashups. If you desire you can work
-with one other person on the mid-term.
-
--   Create a web page/pages that utilize one or more Web APIs
-
--   Built with Javascript, CSS, and HTML
-
--   Examples of available APIs
-
--   Google Documents, Maps, Calendar, etc.
-
--   Twitter, Facebook
-
--   Amazon, Evernote, Dropbox, RTM, tweedledo
-
--   Movies, Music, Books, ...
-
--   1000’s of others
-
--   Combine one or more of these web services to create your own cool
-    service
-
-Final Project
--------------
-
-Later in the semester you will need to devise a final project. This
-project will make use of the web development framework we’ve used in
-class, or you could venture out and use one of the many other web
-frameworks (Django, Ruby on Rails, Groovy on Grails, Google App Engine,
-etc.) You can work in a group of up to 3. You will need to write up a
-formal proposal for this project and have it approved by me before
-starting. You and your group will present the project to the class in
-the last week of the course.
 
 Grading
 -------
