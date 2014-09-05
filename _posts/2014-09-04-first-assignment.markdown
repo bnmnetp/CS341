@@ -11,5 +11,5 @@ Problems at the end of Chapter 1 (starting on page 70).  Not the review question
 
 Answer these in an ipython notebook and Save them to the shared folder for this class on google drive.  Please name your notebook as follows: username_hw1  **Note**, as of this afternoon, all of my folders are missing.  The katie team is working on getting these folders and the calendar for this course back in place.
 
-Problems:  7, 18, 24, 27, 28
+Problems:  7, 18, 24
 
