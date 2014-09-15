@@ -9,7 +9,8 @@ categories:
 
 * Finish DNS
 * DNS Delay
-* DNS Message Decoding
+* DNS Message Decoding Due Wednesday
+* Problems P7 and P8 on pg 173 Due Friday
 
 ### Wednesday
 
