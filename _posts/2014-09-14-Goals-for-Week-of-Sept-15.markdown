@@ -15,7 +15,7 @@ categories:
 
 * Introduction to TCP/IP Sockets Programming
 * A simple TCP client server
-
+* Read section 2.7 Socket Programming: Creating Network Applications
 
 ### Friday
 
