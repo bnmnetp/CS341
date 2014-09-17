@@ -11,7 +11,9 @@ while True:
         message, address = s.recvfrom(8192)
         print("Got data from", address)
         # Acknowledge it.
-        s.sendto(message.upper(), address)
+        message = message.decode('utf8')
+        message = message.upper()
+        s.sendto(message.encode('utf8'), address)
     except (KeyboardInterrupt, SystemExit):
         break
     except:
