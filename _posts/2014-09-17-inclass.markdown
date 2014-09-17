@@ -23,13 +23,13 @@ However:  Think about the fact that a 32 bit integer can hold a number up to 4,2
 
 * You can convert an integer to 4 bytes as follows:
 
-  * myNum >> 24 &    -- gives the first (high order) byte
-  * myNum >> 16 & 0xff  -- gives the second byte
-  * myNum >> 8 & 0xff -- gives the third
-  * myNum & 0xff  -- gives the final (low order) byte
+  * ``myNum >> 24``     -- gives the first (high order) byte
+  * ``myNum >> 16 & 0xff``  -- gives the second byte
+  * ``myNum >> 8 & 0xff`` -- gives the third
+  * ``myNum & 0xff``  -- gives the final (low order) byte
 
-* The >> operator shifts the bits of myNum to the right filling in with zeros on the left, and throwing away the bits that fall off on the right.
+* The ``>>`` operator shifts the bits of myNum to the right filling in with zeros on the left, and throwing away the bits that fall off on the right.
 
-* the & operator is the bitwise AND operator this ensures that only the 8 leftmost bits are kept, and all the others are zeroed out.
+* the ``&`` operator is the bitwise AND operator this ensures that only the 8 leftmost bits are kept, and all the others are zeroed out.
 
-* You can take four bytes and glue them back together using the left shift << operator and the bitwise OR | operator.  I'll let you think about that for a while.
+* You can take four bytes and glue them back together using the left shift ``<<`` operator and the bitwise OR ``|`` operator.  I'll let you think about that for a while.
