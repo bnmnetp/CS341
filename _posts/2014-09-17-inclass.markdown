@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Network Programming, inclass exercise"
+date:   2014-09-17 09:45:41.961331
+categories:
+---
+
+### Step 1
+
+* Working with a partner, Modify the echo server/client as follows.
+
+  1.  The echo client will prompt the user to enter numbers until they type stop.
+  2.  The echoClient will send N numbers the first number will tell the server how many to expect.
+  3.  The server will read each of the N numbers, square them, and send them back again with the  first number telling the client how many numbers to expect
+
+ * In this stage of the project you can send your messages as utf8 encoded strings, just like the example program
+
+However:  Think about the fact that a 32 bit integer can hold a number up to 4,294,967,295.  Why send 10 bytes of an encoded string when you only need to send 4?  This is why many protocols are like the DNS protocol.
+
+### Step 2
+
+* The same as step 1 except you NOT send the numbers as strings, but rather will send the numbers in an array of bytes.  In fact that is exactly what the encode function of a string does, it takes each character of the string, encodes it in utf8 and stores that byte in a byte array.  The send function always sends a ``bytearray``.
+
+* You can convert an integer to 4 bytes as follows:
+
+  * myNum >> 24 &    -- gives the first (high order) byte
+  * myNum >> 16 & 0xff  -- gives the second byte
+  * myNum >> 8 & 0xff -- gives the third
+  * myNum & 0xff  -- gives the final (low order) byte
+
+* The >> operator shifts the bits of myNum to the right filling in with zeros on the left, and throwing away the bits that fall off on the right.
+
+* the & operator is the bitwise AND operator this ensures that only the 8 leftmost bits are kept, and all the others are zeroed out.
+
+* You can take four bytes and glue them back together using the left shift << operator and the bitwise OR | operator.  I'll let you think about that for a while.
