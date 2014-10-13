@@ -16,7 +16,16 @@ categories:
 
 * Pipelined Data transfer
 * Section 3.5
-
+* Programming Assignment
+  * Implement the stop and wait protocol 3.0 using the udt_xxx stubs provided
+  * You can work with a partner.  You must implement the sender side with the rdt_send function and a receiver side that prints the correctly received message.  When you turn them in, they should be set up to run on localhost.
+  * 20 points  Total
+    * 14 points for rdt 2.0
+    * 16 points for rdt 2.2
+    * 20 points for rdt 3.0
+    * 25 points for implementing GBN
+  * Due before you leave for fall break.
+  
 ### Friday
 
 * Real TCP
