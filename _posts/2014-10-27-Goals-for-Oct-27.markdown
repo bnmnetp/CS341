@@ -14,10 +14,13 @@ categories:
 
 * DHCP
 * NAT
-* Routing Algorithms
+* ICMP
+* IPV6
 
 ### Friday
 
+* Routing Algorithms
+* Read Sections 4.5.1 and 4.5.2 for today
 * DV Routing
 * DV Routing protocol Design
 
