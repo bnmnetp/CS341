@@ -26,15 +26,18 @@ The DV Routing lab will be done in two parts.
    * If your program is the final destination for the message you will need to print out the message.
    * part of the message protocol and design will be to allow each intermediate router to add its own address to a list so that when the message reaches the final destination not only the message but the route the message took can be printed out.
 
-We will have a lab day next Monday as a "test day" for you to try out your program with the entire class.  This will likely descend into chaos on the first day that we give it a try.  By the end of class on Wednesday we should have all the bugs worked out of part 1.
+We will have a lab day next Wednesday as a "test day" for you to try out your program with the entire class.  This will likely descend into chaos on the first day that we give it a try.  By the end of class on Friday we should have all the bugs worked out of part 1.
 
 
 
 ### Wednesday
 
 * Routing and Hierarchical Routing
-* Broadcast and Multicast Routing
+* Broadcast Routing
 * NAT Wireshark Lab
+
+![Protocol Design](images/dv_protocol.jpg)
+
 
 ### Friday
 
