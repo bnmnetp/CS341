@@ -36,7 +36,7 @@ We will have a lab day next Wednesday as a "test day" for you to try out your pr
 * Broadcast Routing
 * NAT Wireshark Lab
 
-![Protocol Design](/images/dv_protocol.jpg)
+![Protocol Design](../images/dv_protocol.jpg)
 
 
 ### Friday
