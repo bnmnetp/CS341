@@ -13,7 +13,8 @@ categories:
 
 ### Wednesday
 
-* TDM and FDM as an access Method
+* Channel Partitioning Strategies
+* TDM / FDM
 * CDMA exercise
 
 ### Friday
