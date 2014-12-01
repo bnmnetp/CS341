@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Goals for Week of November 10"
-date:   2014-11-10 08:08:12.901895
+date:   2014-11-17 08:08:12.901895
 categories:
 ---
 
